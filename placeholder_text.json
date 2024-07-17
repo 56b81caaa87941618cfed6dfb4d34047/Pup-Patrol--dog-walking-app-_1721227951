@@ -1,0 +1,67 @@
+{
+    "hero-component.js" : [
+        "LANDING_PAGE_ANNOUNCEMENT_TEXT",
+        "LANDING_PAGE_HERO_TEXT",
+        "LANDING_PAGE_SUB_HERO_TEXT"],
+
+    "header-component.js" : [
+        "HEADER_NAVBAR_TEXT_1",
+        "HEADER_NAVBAR_TEXT_2",
+        "HEADER_NAVBAR_TEXT_3",
+        "HEADER_NAVBAR_TEXT_4",
+        "HEADER_NAVBAR_TEXT_5"
+    ],
+
+    "footer-component.js" : [
+        "FOOTER_COMPONENT_1_TITLE_TEXT",
+        "FOOTER_COMPONENT_1_FOOTER_TEXT_1",
+        "FOOTER_COMPONENT_1_BODY_TEXT_1",
+        "FOOTER_COMPONENT_1_BODY_TEXT_2",
+        "FOOTER_COMPONENT_1_BODY_TEXT_3",
+        "FOOTER_COMPONENT_1_BODY_TEXT_4",
+        "FOOTER_COMPONENT_2_TITLE_TEXT",
+        "FOOTER_COMPONENT_2_BODY_TEXT_1",
+        "FOOTER_COMPONENT_2_BODY_TEXT_2",
+        "FOOTER_COMPONENT_2_BODY_TEXT_3",
+        "FOOTER_COMPONENT_2_BODY_TEXT_4",
+        "FOOTER_COMPONENT_3_TITLE_TEXT",
+        "FOOTER_COMPONENT_3_BODY_TEXT_1",
+        "FOOTER_COMPONENT_3_BODY_TEXT_2",
+        "FOOTER_COMPONENT_3_BODY_TEXT_3",
+        "FOOTER_COMPONENT_3_BODY_TEXT_4"
+    ],
+
+    "feature-component.js" : [
+        "5_WORD_DESCRIPTION_OF_APP",
+        "APP_CHARACTERISTIC_1_TITLE",
+        "APP_CHARACTERISTIC_1_BODY",
+        "APP_CHARACTERISTIC_2_TITLE",
+        "APP_CHARACTERISTIC_2_BODY",
+        "APP_CHARACTERISTIC_3_TITLE",
+        "APP_CHARACTERISTIC_3_BODY",
+        "APP_CHARACTERISTIC_4_TITLE",
+        "APP_CHARACTERISTIC_4_BODY",
+        "APP_CHARACTERISTIC_5_TITLE",
+        "APP_CHARACTERISTIC_5_BODY"],
+
+    "index-feature-grid-copmponent.js" : [
+        "FEATURE_1_TITLE",
+        "FEATURE_1_BODY ",
+        "FEATURE_2_TITLE",
+        "FEATURE_2_BODY",
+        "FEATURE_3_TITLE",
+        "FEATURE_3_BODY",
+        "FEATURE_4_TITLE",
+        "FEATURE_4_BODY",
+        "FEATURE_5_TITLE",
+        "FEATURE_5_BODY",
+        "FEATURE_6_TITLE",
+        "FEATURE_6_BODY"],
+
+    "cta-component.js" : [
+        "CTA_TITLE",
+        "CTA_BODY",
+        "CTA_SUBTITLE",
+        "CTA_CONTENT_SUBTITLE"
+        ]
+}

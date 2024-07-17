@@ -1,0 +1,22 @@
+/* Summary: This is a CSS file that contains the following:
+1. Import a font from Google Fonts called "Inter" with different font weights (400, 500, 700, 800).
+2. Import the base, components, and utilities from Tailwind CSS.
+3. Import additional styles from "additional-styles/utility-patterns.css" and "additional-styles/theme.css".
+4. A utility class "[x-cloak=\"\"]" that hides elements with the "x-cloak" attribute, which is used in conjunction with the Alpine.js framework. */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=fallback');
+/* @import 'additional-styles/custom-fonts'; */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+/* Additional styles */
+@import 'additional-styles/utility-patterns.css';
+@import 'additional-styles/theme.css';
+
+@import 'tailwindcss/utilities';
+
+/* See Alpine.js: https://github.com/alpinejs/alpine#x-cloak */
+[x-cloak=""] {
+    display: none;
+}

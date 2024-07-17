@@ -1,0 +1,106 @@
+/* Summary: This file contains CSS styles for a web application. It is divided into three main sections:
+1. **Typography**: This section defines styles for headings (H1 to H4) with different font sizes and font weights. It also includes responsive styles for medium-sized screens.
+2. **Buttons**: This section defines styles for buttons, including a regular button and a smaller button variant. The styles include common properties such as font size, font weight, border, and transition effects.
+3. **Forms**: This section defines styles for various form elements, including input fields, text areas, multi-select, select dropdowns, checkboxes, and radio buttons. The styles include common properties such as background color, border, font color, and focus styles.
+Additionally, the file includes some CSS hacks to remove default styles for certain search-related input elements, as well as styles to hide the scrollbar on elements with the `no-scrollbar` class. */
+
+/* Typography */
+.h1 {
+    @apply text-5xl font-extrabold;
+}
+
+.h2 {
+    @apply text-4xl font-extrabold;
+}
+
+.h3 {
+    @apply text-3xl font-extrabold;
+}
+
+.h4 {
+    @apply text-2xl font-extrabold;
+}
+
+@screen md {
+    .h1 {
+        @apply text-6xl;
+    }
+
+    .h2 {
+        @apply text-5xl;
+    }
+
+    .h3 {
+        @apply text-4xl;
+    }
+}
+
+/* Buttons */
+.btn,
+.btn-sm {
+    @apply text-sm font-medium inline-flex items-center justify-center border border-transparent rounded-full whitespace-nowrap transition duration-150 ease-in-out;
+}
+
+.btn {
+    @apply px-4 py-1.5;
+}
+
+.btn-sm {
+    @apply px-3 py-1;
+}
+
+/* Forms */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+}
+
+.form-input,
+.form-textarea,
+.form-multiselect,
+.form-select,
+.form-checkbox,
+.form-radio {
+    @apply bg-slate-800 border border-transparent focus:border-purple-500;
+}
+
+.form-input,
+.form-textarea,
+.form-multiselect,
+.form-select,
+.form-checkbox {
+    @apply rounded;
+}
+
+.form-input,
+.form-textarea,
+.form-multiselect,
+.form-select {
+    @apply text-slate-200 text-sm px-3 py-1.5;
+}
+
+.form-input,
+.form-textarea {
+    @apply placeholder-slate-500;
+}
+
+.form-select {
+    @apply pr-10;
+}
+
+.form-checkbox,
+.form-radio {
+    @apply text-purple-600 rounded-sm;
+}
+
+/* Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
