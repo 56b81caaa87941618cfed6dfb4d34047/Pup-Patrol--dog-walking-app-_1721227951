@@ -6,5 +6,11 @@
         "timestamp": "17072024145232",
         "component_file_name": "",
         "div_id": ""
+    },
+    {
+        "role": "user",
+        "content": "change the hero to bright yellow",
+        "timestamp": "17072024145342",
+        "message_id": "guest17072024145341"
     }
 ]
