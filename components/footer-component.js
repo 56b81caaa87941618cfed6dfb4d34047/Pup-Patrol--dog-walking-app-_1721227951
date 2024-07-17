@@ -19,7 +19,7 @@ Vue.component("footer-component", {
                     <div id="footer-logo-copyright" class="mb-4 sm:mb-0">
                         <div class="mb-4">
                             <!-- Logo -->
-                            <a id="footer-logo" class="inline-flex" href="index.html" aria-label="FOOTER_COMPONENT_1_FOOTER_TEXT_1"> <img src="./images/logo.svg" width="38" height="38" alt="Stellar"></a>
+                            <a id="footer-logo" class="inline-flex" href="index.html" aria-label="FOOTER_COMPONENT_1_FOOTER_TEXT_1"> <img src="static/img/generate-an-image-for-a-logo-for-the-website-based-on-the-project-description-dog-walking-.png" width="38" height="38" alt="Stellar"></a>
                         </div>
                         <div id="footer-copyright" class="text-sm" :class="textColorSecondary">&copy; FOOTER_COMPONENT_1_FOOTER_TEXT_1 <span :class="textColorTertiary">-</span> All rights reserved.</div>
                     </div>
