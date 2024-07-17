@@ -12,5 +12,11 @@
         "content": "change the hero to bright yellow",
         "timestamp": "17072024145342",
         "message_id": "guest17072024145341"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "The hero's costume was now bright yellow, with black cuffs and a matching belt. It was eye-catching and distinct, making the hero stand out in the crowd. As he walked down the street, people turned their heads to catch a glimpse of him, impressed by his bold choice of color. The hero felt empowered by the sunny hue that shone brightly under the sun's rays. With renewed confidence and vigor, he set out to fight for justice and protect the innocent.",
+        "timestamp": "17072024145343",
+        "message_id": "guest17072024145341"
     }
 ]
